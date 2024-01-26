@@ -1,6 +1,5 @@
 body {
   background-image: url(/img/Background.jpg);
-  background-size: auto;
 }
 h1 {
   color: black;
@@ -17,4 +16,7 @@ h2 {
   font-size: 30px;
   text-transform: capitalize;
   text-align: center;
+}
+.ul_1 {
+  list-style: none;
 }
