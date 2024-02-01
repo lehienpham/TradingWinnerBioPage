@@ -61,6 +61,7 @@ h2 {
   text-transform: capitalize;
 }
 .ul {
+  max-width: 80vw;
   list-style: none;
   text-align: left;
   margin: -8px;
@@ -103,7 +104,7 @@ a:hover {
 }
 p {
   overflow: hidden;
-  -webkit-line-clamp: 3;
+  /* -webkit-line-clamp: 3; */
   -webkit-box-orient: vertical;
   display: -webkit-box;
 }
