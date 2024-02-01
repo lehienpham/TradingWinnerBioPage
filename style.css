@@ -61,29 +61,21 @@ h2 {
   text-transform: capitalize;
 }
 .ul {
-  max-width: 80vw;
+  max-width: 90vw;
   list-style: none;
   text-align: left;
-  margin: -8px;
 }
 .fa-hand-point-right {
   margin: 5px;
 }
-.button_1 {
-  width: 50%;
+.button.link {
+  width: 60%;
   height: 50px;
+  margin: 5px;
   font-size: 2rem;
   border: 1px solid white;
   border-radius: 999px;
   background-color: transparent;
-}
-i.fa-youtube {
-  width: 36px;
-  height: 36px;
-  left: 16px;
-  line-height: 36px;
-  color: red;
-  vertical-align: baseline;
 }
 a {
   width: 100%;
@@ -98,9 +90,26 @@ a {
   text-decoration: none;
   color: white;
 }
-a:hover {
+.icon {
+  position: absolute;
+  width: 36px;
+  height: 36x;
+  line-height: 36px;
+  left: 16px;
+}
+.fa-youtube {
+  color: red;
+}
+.fa-telegram {
+  color: #1da1f2;
+}
+a.youtube:hover {
   background-color: #ffde59;
   color: red;
+}
+a.telegram:hover {
+  background-color: #ffde59;
+  color: #1da1f2;
 }
 p {
   overflow: hidden;
@@ -111,7 +120,4 @@ p {
 .end {
   font-size: 1.8rem;
   font-weight: 700;
-}
-.spot {
-  /* color: #ffde59; */
 }
